@@ -19,3 +19,14 @@ h1 {
   width: 620px;
   margin: 0 auto;
 }
+
+.playAgainButton {
+  margin: 0 auto;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+}
