@@ -47,6 +47,10 @@ const App = () => {
     }
   }
 
+  const refreshPage = () => {
+    window.location.reload(false)
+  }
+
   return (
     <>
       <h1>Treasure Hunt Game</h1>
@@ -60,6 +64,9 @@ const App = () => {
             />
           )
         })}
+      </div>
+      <div>
+        <button className="playAgainButton" onClick={refreshPage}>Click to play again!</button>
       </div>
     </>
   )
