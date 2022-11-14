@@ -6,4 +6,16 @@ h1 {
   height: 200px;
   width: 200px;
   border: 1px solid black;
+  /* center question marks */
+  font-size: 150px;
+  text-align: center;
+}
+
+.gameboard {
+  /* use flex box */
+  display: flex;
+  flex-wrap: wrap;
+  /* 200 + 200 + 200 + 1 + 1 + 1 = 603 add some more for wiggle room */
+  width: 620px;
+  margin: 0 auto;
 }
